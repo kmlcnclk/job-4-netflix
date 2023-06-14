@@ -41,6 +41,14 @@
 <script>
 import Slider from '@/components/Slider.vue'
 import CustomSlider from '@/components/CustomSlider.vue'
+import LargeMovie1 from '../../public/large-movie1.jpg'
+import LargeMovie2 from '../../public/large-movie2.jpg'
+import LargeMovie3 from '../../public/large-movie3.jpg'
+import LargeMovie4 from '../../public/large-movie4.jpg'
+import LargeMovie5 from '../../public/large-movie5.jpg'
+import LargeMovie6 from '../../public/large-movie6.jpg'
+import LargeMovie7 from '../../public/large-movie7.jpg'
+import LargeMovie8 from '../../public/large-movie8.jpg'
 
 export default {
   name: 'Home',
@@ -62,14 +70,14 @@ export default {
   data() {
     return {
       largeImages: [
-        '/public/large-movie1.jpg',
-        '/public/large-movie3.jpg',
-        '/public/large-movie2.jpg',
-        '/public/large-movie4.jpg',
-        '/public/large-movie5.jpg',
-        '/public/large-movie6.jpg',
-        '/public/large-movie7.jpg',
-        '/public/large-movie8.jpg'
+        LargeMovie1,
+        LargeMovie2,
+        LargeMovie3,
+        LargeMovie4,
+        LargeMovie5,
+        LargeMovie6,
+        LargeMovie7,
+        LargeMovie8
       ],
       sliderTexts: [
         'Trending Now',
