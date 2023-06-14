@@ -18,14 +18,14 @@ export default {
   data() {
     return {
       smallImages: [
-        '/public/small-movie1.jpg',
-        '/public/small-movie3.jpg',
-        '/public/small-movie2.jpg',
-        '/public/small-movie4.jpg',
-        '/public/small-movie5.jpg',
-        '/public/small-movie6.jpg',
-        '/public/small-movie7.jpg',
-        '/public/small-movie8.jpg'
+        '../../public/small-movie1.jpg',
+        '../../public/small-movie3.jpg',
+        '../../public/small-movie2.jpg',
+        '../../public/small-movie4.jpg',
+        '../../public/small-movie5.jpg',
+        '../../public/small-movie6.jpg',
+        '../../public/small-movie7.jpg',
+        '../../public/small-movie8.jpg'
       ]
     }
   }
